@@ -5,7 +5,7 @@
   "homepage": "https://nidhiy12.github.io/",
   "type": "module",
   "scripts": {
-    "predeploy": "rm -rf node_modules/.cache/gh-pages && npm run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
