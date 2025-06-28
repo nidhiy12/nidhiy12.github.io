@@ -1,0 +1,110 @@
+body {
+  font-family: 'Playfair Display', serif;
+  background-color: #f7f3ec;
+  margin: 0;
+  padding: 0;
+  color: #333333;
+}
+
+.corporate-law-page {
+  padding: 40px;
+  margin: 0 auto;
+  line-height: 1.8;
+}
+
+.hero-section {
+  background-color: #e6dac7;
+  padding: 30px;
+  border-radius: 12px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.hero-title {
+  font-size: 3.5rem;
+  color: #2a2a2a;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.hero-subtitle {
+  font-size: 1.3rem;
+  color: #555555;
+  margin: 0;
+}
+
+.section-content {
+  background: #ffffff;
+  padding: 20px 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.section-content h2 {
+  margin-top: 0;
+  color: #2a2a2a;
+  font-size: 2rem;
+  border-bottom: 2px solid #e67e22;
+  padding-bottom: 5px;
+}
+
+.section-content p,
+.section-content li {
+  font-size: 1.2rem;
+  color: #4b4b4b;
+}
+
+.section-content ul {
+  padding-left: 20px;
+  list-style: disc;
+}
+
+.section-content li strong {
+  color: #e67e22;
+  font-weight: 600;
+}
+
+.centered-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 5px solid black;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* Quiz styles */
+.quiz-board {
+  background-color: #fff8ef;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+.options-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.option {
+  background-color: #d1c6b1;
+  color: #4a4a4a;
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.option:hover {
+  background-color: #b5a98d;
+  transform: scale(1.05);
+}
+
+

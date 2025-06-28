@@ -1,0 +1,72 @@
+body {
+    font-family: 'Playfair Display', serif; 
+    background-color: #fdf8f4; 
+    margin: 0;
+    padding: 0;
+    color: #333333; 
+  }
+  
+  .civil-law-page {
+    padding: 40px;
+    
+    margin: 0 auto;
+    line-height: 1.8;
+  }
+  
+  .hero-section {
+    background-color: #f7ede2; 
+    padding: 30px;
+    border-radius: 12px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .hero-title {
+    font-size: 3.5rem;
+    color: #2c2c2c;
+    margin-bottom: 10px;
+    font-weight: 700;
+  }
+  
+  .hero-subtitle {
+    font-size: 1.3rem;
+    color: #555555;
+    margin: 0;
+  }
+  
+  .section-content {
+    background: #ffffff;
+    padding: 20px 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .section-content h2 {
+    margin-top: 0;
+    color: #2c2c2c;
+    font-size: 2rem;
+    border-bottom: 2px solid #e67e22;
+    padding-bottom: 5px;
+  }
+  
+  .section-content p {
+    font-size: 1.2rem;
+    color: #4b4b4b;
+  }
+  
+  .section-content ul {
+    padding-left: 20px;
+    list-style: disc;
+  }
+  
+  .section-content li {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .section-content li strong {
+    color: #e67e22;
+    font-weight: 600;
+  }
+  

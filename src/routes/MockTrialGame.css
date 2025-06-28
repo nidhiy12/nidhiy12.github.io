@@ -1,0 +1,53 @@
+.mock-trial-game {
+  font-family: 'Playfair Display', serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: #f5f3f0;
+  padding: 40px;
+  min-height: 100vh;
+  color: #4a4a4a;
+  box-sizing: border-box;
+  width: 100vw; /* Full page width */
+}
+
+/* Make board fill more space */
+.board {
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 1000px;  /* adjust for ultra-wide screens */
+  margin-bottom: 30px;
+  box-sizing: border-box;
+}
+
+/* Make options more spacious */
+.options-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  width: 100%;
+}
+
+.option {
+  flex: 1 1 200px;
+  max-width: 220px;
+  padding: 15px 20px;
+  font-size: 18px;
+  border-radius: 10px;
+  text-align: center;
+  background-color: #d1c6b1;
+  color: #4a4a4a;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.option:hover {
+  background-color: #b5a98d;
+  transform: scale(1.05);
+}
